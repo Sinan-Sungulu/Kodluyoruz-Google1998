@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(255, 255, 255);;
+}
+/***************  top *******************/
+#picture {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+/***************  top *******************/
+
+/*************** Search-Box **************/
+#container {
+    width: 1200px;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+#search-box {
+    background-color: rgba(230, 226, 220, 0.445);
+}
+#search-box h3 {
+    text-align: center;
+    font-weight: 100;
+}
+#search-box input[type=text] {
+    display: block;
+    margin-left: auto;
+    width: 300px;
+    margin-right: auto;
+}
+#button-box .button {
+ display: inline;
+ text-align: center;
+ padding: 1px;
+}
+#button-box {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*************** Search-Box **************/
+
+/************** Link-box *****************/
+#link-container {
+   
+    margin-top: 3px;
+    overflow: hidden;
+}
+.other-links {
+    float: left;
+    background-color: burlywood;
+    height: 70px;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #62B3AA;
+    font-size: 14px;
+    
+}
+#link-bar-1 {
+    width: 443px;
+    background-color: #7bcec4;
+}
+#link-bar-2 {
+    width: 188px;
+    margin-left: 2px;
+    background-color: #7bcec4;
+    
+}
+#link-bar-3 {
+    margin-left: 2px;
+    width: 505px;
+    
+}
+#link-bar-3 p{
+    font-weight: 100;
+    font-size: 14px;
+}
+#link-bar-3 input[type="email"]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#link-bar-3 input[type="button"] {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-transform: capitalize;
+}
+/************** Link-box *****************/
+
+
+#google {
+    display: block;
+    text-align: center;
+    font-size: small;
+    font-weight: 500;
+
+}
